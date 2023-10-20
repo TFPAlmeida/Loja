@@ -17,7 +17,7 @@ public class Loja {
 	
 	@Id
 	@GeneratedValue
-	private String id;
+	private int id;
 	private String name;
 	private String cidade;
 	private String país;

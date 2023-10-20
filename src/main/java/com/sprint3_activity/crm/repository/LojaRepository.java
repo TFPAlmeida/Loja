@@ -6,4 +6,6 @@ import com.sprint3_activity.crm.entity.Loja;
 
 public interface LojaRepository extends JpaRepository<Loja, Integer>{
 
+	Loja findByName(String name);
+
 }
